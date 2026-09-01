@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is a cat for the tags practice</h1>
+    <a href="index.html">back to index page</a> 
+    <img src="cat-sleep.webp" width="300" height="200tabby cat sleeping peacefully on a gray couch, curled up with its head resting down in a relaxed position, conveying a calm and content mood.">
+</body>
+</html>
