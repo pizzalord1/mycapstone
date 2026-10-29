@@ -1,0 +1,9 @@
+.buttons 
+{
+	color: rgb(21, 232, 84);
+	border: 3px solid rgb(254, 180, 237);
+	background-color: rgb(182, 1, 182);
+	border-left: 3px solid rgb(182, 1, 182);
+	border-bottom: 3px solid rgb(182, 1, 182);
+    text-decoration: none;
+}
