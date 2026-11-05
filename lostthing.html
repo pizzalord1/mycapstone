@@ -8,10 +8,23 @@
     <title>Bootstrap demo</title>
   </head>
   <body>
-    <h1 class="bg-warning text-center ">Hello, world!</h1>
+    <h1 class="bg-warning text-center">cats</h1>
 
-    <div class="image">
-      <img class="d-block mx-auto" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/German_-_Chalice_with_Saints_and_Scenes_from_the_Life_of_Christ_-_Walters_44116.jpg/1280px-German_-_Chalice_with_Saints_and_Scenes_from_the_Life_of_Christ_-_Walters_44116.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" alt="" width="500" height="695">
+    <div id="catCarousel" class="carousel slide cat-carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Cat icon.webp" class="d-block w-100" alt="A gray tabby cat sitting outdoors">
+        </div>
+        <div class="carousel-item">
+          <img src="cat-sleep.webp" class="d-block w-100" alt="A tabby cat sleeping on a couch">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#catCarousel" data-bs-slide="prev" aria-label="Previous image">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#catCarousel" data-bs-slide="next" aria-label="Next image">
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
 
     <div class="bg-danger text-center">
